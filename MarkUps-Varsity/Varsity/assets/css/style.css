@@ -523,19 +523,19 @@ img {
   width: 100%;
   background-color: #ccc;
 }
-#mu-about-us .mu-about-us-area .mu-about-us-temp a {
+/* #mu-about-us .mu-about-us-area .mu-about-us-temp a {
   display: block;
   width: 100%;
-  /* position: relative; */
-}
+  position: relative;
+} */
 #mu-about-us .mu-about-us-area .mu-about-us-temp a img {
   width: 100%;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-temp a:after {
-  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
   bottom: 0;
   color: #ddd;
-  content: '\f04b';
+  /* content: '\f04b'; */
   font-family: fontAwesome;
   font-size: 50px;
   left: 0;
@@ -2533,4 +2533,17 @@ img {
   #mu-error .mu-error-area h2 {
     font-size: 100px;
   }
+  .abc{
+    bottom: 0;
+    color: #ddd;
+    font-size: 50px;
+    left: 0;
+    padding-top: 27%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+  }
 }
+
+
