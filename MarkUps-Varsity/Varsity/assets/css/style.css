@@ -510,6 +510,42 @@ img {
   top: 0;
 }
 
+
+
+
+
+
+#mu-about-us .mu-about-us-area .mu-about-us-temp {
+  display: inline;
+  float: left;
+  width: 100%;
+  display: block;
+  width: 100%;
+  background-color: #ccc;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-temp a {
+  display: block;
+  width: 100%;
+  /* position: relative; */
+}
+#mu-about-us .mu-about-us-area .mu-about-us-temp a img {
+  width: 100%;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-temp a:after {
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  color: #ddd;
+  content: '\f04b';
+  font-family: fontAwesome;
+  font-size: 50px;
+  left: 0;
+  padding-top: 27%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
 /*==== about us dynamic video player ====*/
 #about-video-popup {
   background-color: rgba(0, 0, 0, 0.9);
@@ -2073,6 +2109,9 @@ img {
   }
 
   #mu-about-us .mu-about-us-area .mu-about-us-right {
+    margin-top: 30px;
+  }
+  #mu-about-us .mu-about-us-area .mu-about-us-temp {
     margin-top: 30px;
   }
 
